@@ -3,6 +3,7 @@ body {
 	padding: 0px; 
 	background: #fff;
 	font-family: 'Varela', sans-serif;  
+	color: #9090a0;
 }
 
 h1 {
@@ -10,10 +11,10 @@ h1 {
     margin: 0;
     padding: 0.5em 0 0 2em;
     text-align: left;
+	color: #333;
 }
 
 h2 {
-
     font-size: 26pt;
     margin: 0;
     padding: 0;
@@ -39,14 +40,6 @@ a:hover {
 	text-decoration: underline; 
 }
 
-#menu a { 
-	color: #4183C4; 
-	text-decoration: none; 
-}
-
-#menu a:hover { 
-}
-
 a.plink {
     color: #fff!important;
     margin-left: 3px;
@@ -58,10 +51,17 @@ a.plink:hover {
     color: #4183C4!important;
 }
 
+#lidl-sign{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	filter:alpha(opacity=5);
+	opacity:0.05;
+}
 
 #menu {
     color: #404040;
-    font-size: 10pt;
+    font-size: 12pt;
     padding: 0;
     text-align: right;
 }
@@ -69,7 +69,7 @@ a.plink:hover {
 #header { 
 	background: #f6f6f6;
 	margin: 0; 
-	padding: .5em .5em 0 .5em;
+	padding: 4em .5em 0 .5em;
 	text-align: center;
 	border-bottom: 1px solid white;
 }
@@ -99,7 +99,7 @@ a.plink:hover {
 .section .intro {
     color: #d0d0e0;
     font-size: 14pt;
-    margin: -4em 0 0;
+    margin: -2em 0 0;
     padding: 0;
 }
 
@@ -108,19 +108,15 @@ a.plink:hover {
 	margin: .2em 0 1em 0;
 }
 
-.note {
-	font-style: italic;
-	margin: 1em 0 0 0;
-}
-
 .yv {
 	float: left; 
-	margin: 0.1em	
+	margin: 0.2em;
 }
 
 .yv-title {
 	clear: left; 
-	font-size: 8pt;
+	color: #d0d0e0;
+	font-size: 10pt;
 }
 
 .sep {
